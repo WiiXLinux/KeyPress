@@ -22,6 +22,12 @@ public class AutoMat {
         return temp;
     }
 
+    public static void pressKey(int keycode){
+        robot.keyPress(keycode);
+        robot.keyRelease(keycode);
+    }
+
+
     public static void pressKey(int[] keyseq) {
 
 

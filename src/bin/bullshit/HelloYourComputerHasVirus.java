@@ -1,4 +1,4 @@
-package bin;
+package bin.bullshit;
 
 import lib.AutoMat;
 
